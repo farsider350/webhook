@@ -5,6 +5,7 @@ Block Alert from P2pool to Discord
     git clone https://github.com/farsider350/webhook.git
     cd webhook
     git checkout p2pool
+    chmod a+x shareBlock.sh
 
 webhook setup https://github.com/farsider350/webhook/blob/p2pool/README.md
 
