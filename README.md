@@ -6,7 +6,7 @@ Block Alert from P2pool to Discord
     cd webhook
     git checkout p2pool
 
-readme https://github.com/farsider350/webhook/blob/p2pool/README.md
+webhook setup https://github.com/farsider350/webhook/blob/p2pool/README.md
 
 Donations:
 -------------------------
