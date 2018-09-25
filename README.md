@@ -1,9 +1,9 @@
 # webhook
 **P2pool to Discord**
 
-    Apply webhook to send.py file
-    Put desired message into shareBlock.sh
-    Change this file to match your p2pool and webhook locations
+    Open send.py in editor and replace Discord webhook url with your own    
+    Open shareBlock.sh in editor and put desired message in for when block is found.
+    Change the lines below in this readme to match your p2pool and webhook locations
     Open 2 seperate terminals
 
 **First terminal run**
