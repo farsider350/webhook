@@ -8,8 +8,8 @@
 
 **First terminal run**
 
-    tail -f ~/Documents/p2pool/data/litecoin/log | grep --line-buffered 'GOT BLOCK FROM PEER' | tee ~/Documents/p2pool/web-static/blocks.txt
+    tail -f ~/p2pool/data/litecoin/log | grep --line-buffered 'GOT BLOCK FROM PEER' | tee ~/p2pool/web-static/blocks.txt
 
 **Second terminal**
 
-    iwatch -e modify -c ~/Documents/webhook/shareBlock.sh ~/Documents/p2pool/web-static/blocks.txt
+    iwatch -e modify -c ~/webhook/shareBlock.sh ~/p2pool/web-static/blocks.txt
